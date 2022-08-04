@@ -3,7 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik'
 import { useNavigate } from 'react-router-dom'
 import * as Yup from 'yup';
 
-import Alerta from './alerta';
+import Alerta from './Alerta';
 import Spinner from './Spinner';
 
 
