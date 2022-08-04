@@ -1,12 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Edgar actualizado",
-      "empresa": "MiguelDev's",
-      "email": "correo@correo.com",
-      "telefono": "",
-      "notas": "Cliente solicita un servidor\n",
-      "id": 4
+      "nombre": "Marta",
+      "empresa": "Marts SAS",
+      "email": "marta@marta.com",
+      "telefono": "312345678",
+      "notas": "El cliente desea cotizar un servidor",
+      "id": 1
     }
   ]
 }

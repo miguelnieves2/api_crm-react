@@ -14,7 +14,7 @@ const VerCliente = () => {
         setCargando(!cargando); // si esta en false, lo cambia a true o lo contrario
       const obtenerClienteAPI = async () =>{
         try {
-            const url = `http://localhost:4000/clientes/${id}`
+            const url = `${import.meta.env.VITE_API_URL}/${id}`
             const respuesta = await fetch(url);
             const resultado = await respuesta.json();
             
@@ -23,9 +23,7 @@ const VerCliente = () => {
             console.log(error);
         }
 
-        setTimeout(() => {
             setCargando(!cargando);
-        }, 3000);
       } 
 
       obtenerClienteAPI();
