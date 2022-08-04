@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "Edgar actualizado",
+      "empresa": "MiguelDev's",
+      "email": "correo@correo.com",
+      "telefono": "",
+      "notas": "Cliente solicita un servidor\n",
+      "id": 4
+    }
+  ]
+}
