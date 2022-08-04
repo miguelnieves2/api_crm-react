@@ -5,7 +5,7 @@ const inicio = () => {
 
   const [clientes, setClientes] = useState([]);
 
-  console.log(import.meta.env.VITE_API_URL);
+  console.log(import.meta.env);
   useEffect(() => {
     const obtenerClientesAPI = async() =>{
       try {
